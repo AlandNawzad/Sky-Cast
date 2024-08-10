@@ -1,0 +1,115 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+p {
+    margin: 0;
+}
+hr {
+    width: 250px;
+    margin: 2rem;
+    border: 2px solid grey;
+}
+
+/* left/top part of the page */
+.main-div {
+    background-color: white;
+}
+
+.secondary-div {
+    background-color: #EFEFEF;
+    padding-left: 1.4rem;
+}
+
+.img-icon {
+    font-size:7rem;
+    color: grey;
+    background-size: cover;
+    margin:2rem 1rem;
+}
+
+
+.weather-summary {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.tempirature {
+    font-size: 3rem;
+}
+
+.weather-text {
+    font-size: 1.3rem;
+}
+
+.time {
+    font-size: 1.2rem;
+}
+
+.dayStatus {
+    font-size: 1.1rem;
+}
+
+.location-info {
+    text-align: center;
+}
+
+.location {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+}
+
+/* right/bottom part of the page */
+
+.header-text {
+    color: #748CF1;
+    font-size: 1.8rem;
+}
+
+.weather-info-box {
+    background-color: #748cf1;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.value {
+    font-size: 2rem;
+}
+
+.sun-condition {
+    font-size: 1.2rem;
+}
+
+.time {
+    font-size: 1.5rem;
+}
+
+.footer-text {
+    color: #748CF1;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    filter: brightness(1.1);
+    text-decoration: underline;
+    text-decoration-color: #748CF1;
+}
