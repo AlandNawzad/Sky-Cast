@@ -4,12 +4,12 @@ import bodyParser from 'body-parser';
 
 const app = express();
 const port = process.env.PORT || 3000;
+const apiKey =process.env.API_KEY;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
-
-const api = "https://api.openweathermap.org/data/2.5/weather?appid=24997bddb85e93f97e207177d3adf7f3&units=metric";
+const api = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=metric`;
 
 // Map OpenWeather icon codes to Weather Icons classes
 function mapIconToWeatherIcon(iconCode) {
